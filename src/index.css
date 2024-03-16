@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +65,49 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#a88c60;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.pokemonImg {
+  max-width: auto;
+  max-height: 100px;
+  align-content: center;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 2%;
+}
+.label{
+  text-align: center;
+  font-weight: normal;
+}
+.type {
+  text-align: center;
+  text-size-adjust: 20;
 }
